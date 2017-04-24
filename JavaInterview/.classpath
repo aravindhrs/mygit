@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="lib/itextpdf-5.5.10.jar"/>
+	<classpathentry kind="lib" path="lib/bcmail-jdk16-1.46.jar"/>
+	<classpathentry kind="lib" path="lib/bctsp-jdk16-1.46.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-ext-jdk14-1.47.jar"/>
+	<classpathentry kind="lib" path="mongolib/controller-1.0.jar"/>
+	<classpathentry kind="lib" path="mongolib/bson-3.4.0-rc1.jar"/>
+	<classpathentry kind="lib" path="mongolib/mongo-java-driver-3.4.0-rc1.jar"/>
+	<classpathentry kind="lib" path="mongolib/uimaj-core-2.3.1.jar"/>
+	<classpathentry kind="lib" path="mongolib/mongo-hadoop-streaming-1.5.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
