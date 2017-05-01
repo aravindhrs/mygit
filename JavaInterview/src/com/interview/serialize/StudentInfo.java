@@ -9,6 +9,7 @@ public class StudentInfo implements Serializable{
 	int id;
 	static String contact;
 	
+	@SuppressWarnings("static-access")
 	public StudentInfo(String n, int sid, String cont) {
 		this.name=n;
 		this.id=sid;

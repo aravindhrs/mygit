@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class StreamReadFile {
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) throws IOException {
 		File file = null;
 		BufferedReader bufferedReader = null;

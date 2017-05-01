@@ -39,7 +39,8 @@ public class SumAverage {
         //s.close();
         return sum;
     }
-	 public static void main(String[] args) throws IOException{
+	 @SuppressWarnings("resource")
+	public static void main(String[] args) throws IOException{
 	        Scanner in = new Scanner(System.in);
 	        final String fileName = System.getenv("OUTPUT_PATH");
 	        BufferedWriter bw = new BufferedWriter(new FileWriter(fileName));
