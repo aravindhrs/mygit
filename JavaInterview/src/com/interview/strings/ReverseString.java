@@ -19,6 +19,7 @@ public class ReverseString {
 	public static void main(String[] args) {
 		System.out.println(getReverseStringRecursive("King"));
 		System.out.println("----------");
-		System.out.println("Substring:".substring(1));
+		System.out.println(getReverseString("King is king kong"));
+		System.out.println("Substring:".substring(0));
 	}
 }
