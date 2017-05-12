@@ -13,7 +13,7 @@ public class Student {
 	
 	@Override
 	public String toString() {
-		return "Student [rollno=" + rollno + ", age=" + age + ", name=" + name + "]";
+		return "{Student ====> rollno=" + rollno + ", age=" + age + ", name=" + name+"}\n";
 	}
 	
 }

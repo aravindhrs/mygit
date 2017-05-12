@@ -6,6 +6,21 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
+/**
+ * The class {@code ArrayList} are subclasses of
+ * {@code AbstractList} that indicates derived and implemented
+ *
+ * <p>The class {@code Exception} and any subclasses that are not also
+ * subclasses of {@link ArrayDequeTest} are <em>checked
+ * exceptions</em>.  Checked exceptions need to be declared in a
+ * method or constructor's {@code throws} clause if they can be thrown
+ * by the execution of the method or constructor and propagate outside
+ * the method or constructor boundary.
+ *
+ * @author  Aravindh RS
+ * @see     LinkedListClass
+ * @since   JDK8.0
+ */
 public class ArrayListTest {
 	public static void main(String[] args) {
 		

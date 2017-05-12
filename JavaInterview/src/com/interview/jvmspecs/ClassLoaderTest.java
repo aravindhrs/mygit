@@ -10,8 +10,8 @@ public class ClassLoaderTest {
 			String param1 = "Java";
 			ClassLoader classLoader = ClassLoader.getSystemClassLoader();
 			Class<?> myClass = classLoader.loadClass(fullClassName);
-			Object myClassObject = myClass.newInstance();
 			Method myMethod = myClass.getMethod("printMsg", new Class[] { String.class });
+			Object myClassObject = myClass.newInstance();
 			String returnValue = (String) myMethod.invoke(myClassObject, new Object[] { param1 });
 			System.out.println("The value returned from the method is:"+ returnValue);
 		} catch (InstantiationException | IllegalAccessException | ClassNotFoundException | NoSuchMethodException

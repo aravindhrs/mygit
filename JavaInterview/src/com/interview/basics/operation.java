@@ -4,7 +4,7 @@ public class operation {
 	int data=80;
 	
 	void change(int data){
-		data=data+700;
+		this.data=data+700;
 		System.out.println("inside change: "+this.data);
 	}
 	

@@ -13,7 +13,7 @@ public class TreeSetClass {
 		treeSet.add("Suji");
 		treeSet.add("Vidhubala");
 		treeSet.add("Jeyashri");
-		//treeSet.add(null);
+		treeSet.add(null);
 		Iterator<String> iterator=treeSet.iterator();
 		while (iterator.hasNext()) {
 			System.out.println((String) iterator.next());

@@ -14,9 +14,11 @@ public class HashMapClass {
 		hashMap.put(1, "1");
 		hashMap.put(2, "2");
 		hashMap.put(3, null);
+		hashMap.put(4, null);
+		//hashMap.put(5, "6");
 		hashMap.put(1, "5");
 		for(Map.Entry<Integer, String> mapEntry:hashMap.entrySet())
-			System.out.println(mapEntry.getKey()+" -Value:"+mapEntry.getValue());
+			System.out.println(mapEntry.getKey()+" :"+mapEntry.getValue());
 		System.out.println("Username equals:"+Objects.equals("aravindh", System.getProperty("user.name")));
 	}
 
