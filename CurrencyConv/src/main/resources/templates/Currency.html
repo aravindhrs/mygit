@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1" />
+<title>User Data</title>
+</head>
+<body>
+	<form action="/result" method="post">
+		<table border="1" style="margin: 50px;">
+			<tr>
+				<td><label for="currencyCode1">CurrencyCode 1 : </label></td>
+				<td><input type="text" name="currencyCode1" /></td>
+			</tr>
+			<tr>
+				<td><label for="currencyCode2">CurrencyCode 2 : </label></td>
+				<td><input type="text" name="currencyCode2" /></td>
+			</tr>
+			<tr>
+				<td><label for="amount">Amount : </label></td>
+				<td><input type="text" name="amount" /></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Submit" /></td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>

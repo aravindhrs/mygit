@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1" />
+<title>Insert title here</title>
+
+<style type="text/css">
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#c3dde0;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.hovertable tr {
+	background-color:#d4e3e5;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+</style>
+</head>
+
+
+<body>
+	<form action="currencyInp" method="GET">
+		<!-- <table>
+			<tr>
+				<td><h4>Currency Code 1: </h4></td>
+				<td><h4 th:text="${currency.currencyCode1}"></h4></td>
+			</tr>
+
+			<tr>
+				<td><h4>Currency Code 2: </h4></td>
+				<td><h4 th:text="${currency.currencyCode2}"></h4></td>
+			</tr>
+			<tr>
+				<td><h4>Amount to Convert: </h4></td>
+				<td><h4 th:text="${currency.amount}"></h4></td>
+			</tr>
+			<tr>
+				<td><h4>Conversion Rate: </h4></td>
+				<td><h4 th:text="${currency.conversionrate}"></h4></td>
+			</tr>
+			<tr>
+				<td><h4>Result: </h4></td>
+				<td><h4 th:text="${currency.result}"></h4></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Convert Again" /></td>
+			</tr>
+
+		</table> -->
+		
+		<table class="hovertable">
+			<tr>
+				<th>Currency Type</th><th>Values</th>
+			</tr>
+			<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+				<td><h4>Currency Code 1: </h4></td><td><h4 th:text="${currency.currencyCode1}"></h4></td>
+			</tr>
+			<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+				<td><h4>Currency Code 2: </h4></td><td><h4 th:text="${currency.currencyCode2}"></h4></td>
+			</tr>
+			<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+				<td><h4>Amount to Convert: </h4></td><td><h4 th:text="${currency.amount}"></h4></td>
+			</tr>
+			<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+				<td><h4>Conversion Rate: </h4></td><td><h4 th:text="${currency.conversionrate}"></h4></td>
+			</tr>
+			<tr onmouseover="this.style.backgroundColor='#ffff66';" onmouseout="this.style.backgroundColor='#d4e3e5';">
+				<td><h4>Result: </h4></td><td><h4 th:text="${currency.result}"></h4></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Convert Again" /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
+

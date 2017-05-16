@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1" />
+<title>User Data</title>
+	<style type="text/css">
+		#table1{
+			border: 80px;
+			border-color: white;
+			border-left-style: double;
+			background-color: white;
+			width: 224px;
+			align-items: center;
+			margin-left: 45%;
+			margin-top: 10%;
+			margin-right: 30%;
+		}
+	</style>
+</head>
+<body style="background-color: gray;">
+	<div id="table1">
+		<table>
+			<tr>
+				<td><h4>Welcome </h4></td>
+				<td><h4 th:text="${user.name}"></h4></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><a href="/currency"><input type="submit" value="Currency Converter" style="margin-left: -50px;"/></a></td>
+			</tr>
+		</table>
+	
+		<!-- <h3>
+			<a href="/currency"><input type="submit" value="Currency Converter" style="margin-left: 15px;"/></a>
+		</h3> -->
+	</div>
+</body>
+</html>
