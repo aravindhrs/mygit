@@ -8,7 +8,8 @@ public class ParallelArraySorting {
 		for (int i : arr) {
 			System.out.print(i + " ");
 		}
-		Arrays.parallelSort(arr,0,3);
+		//Arrays.parallelSort(arr,0,3);
+		Arrays.parallelSort(arr);
 		System.out.println("\nArray elements after sorting");
 		for (int i : arr) {
 			System.out.print(i + " ");

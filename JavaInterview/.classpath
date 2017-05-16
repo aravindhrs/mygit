@@ -11,5 +11,6 @@
 	<classpathentry kind="lib" path="mongolib/mongo-java-driver-3.4.0-rc1.jar"/>
 	<classpathentry kind="lib" path="mongolib/uimaj-core-2.3.1.jar"/>
 	<classpathentry kind="lib" path="mongolib/mongo-hadoop-streaming-1.5.0.jar"/>
+	<classpathentry kind="lib" path="/TrialMeme-Lucene/WEB-INF/lib/commons-io-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
