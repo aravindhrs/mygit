@@ -1,0 +1,31 @@
+BDD internally supports TDD
+reuirements
+feature file
+BDD tools: jbehave, cucumber
+feature file converts requirements from bussiness
+feature file(written based on gherkin language) >> cucumber/jbehave >> stepdefinition(testcase) >>TDD >> functionality(actual)
+using ghrekin we can automate the requirement collection phase
+feature file creation also automated
+--------------------
+Feature file:(.feature file): shouty.feature
+
+Feature: shouty
+	scenario:listener is within range
+		given tom is 15 metres away from jack
+		when tom shouts "free movie tickets"
+		then jack hears tom's message
+
+feature: signup
+	scenario: login signup
+		given fname lname emailid
+		when confirmed user email id
+		then successful signup
+
+---------------------------------
+To start jenkins server: java -jar app.war --httpPort=8085
+Manage jenkins> configure systems >>
+
+
+
+Devops:
+dev >> test >> checkin >> Jenkins/Bamboo >> Configure repository(github/svn) >> intiate build(compile,test,package) 
