@@ -28,4 +28,11 @@ Manage jenkins> configure systems >>
 
 
 Devops:
-dev >> test >> checkin >> Jenkins/Bamboo >> Configure repository(github/svn) >> intiate build(compile,test,package) 
+
+dev >> test >> checkin >> Jenkins/Bamboo >> Configure repository(github/svn) >> intiate build(compile,test,package) >> sonar report >> spinnaker >> cloudfoundry
+
+single click deployment: netflix spinnaker
+cf push spinnaker -n spinnaker-908 -i 1 -m 1024m -p spinnaker.jar
+
+
+ >> create server in org to avoid filrewall block >> download from maven to corp repo >> access dependencies from nexus
